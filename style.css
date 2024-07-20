@@ -22,7 +22,7 @@
 html, body {
     background-color:  #47a4d644;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
 
     display: flex;
     flex-direction: column;
@@ -96,6 +96,11 @@ footer {
     padding: 15px;
     background-color: var(--cor01);
     color: white;
+    font-size: 1.1em;
+}
+
+footer p {
+    margin-bottom: 2px;
 }
 
 footer a {
