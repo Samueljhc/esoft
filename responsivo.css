@@ -1,0 +1,36 @@
+@media screen and (min-width: 1264px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    header > img {
+        margin-bottom: -12px;
+        width: 150px;
+        height: 100px;
+    }
+
+    main {
+        width: 70vw;
+    }
+
+    main > article > h1 {
+        font-size: 1.3em;
+    }
+
+    main > article > h2 {
+        font-size: 1em;
+    }
+
+    main > article > p {
+        font-size: 0.8em;
+    }
+
+    article li {
+        font-size: 0.6em;
+    }
+
+    footer {
+        font-size: 0.6em;
+        padding: 5px;
+    }
+}
