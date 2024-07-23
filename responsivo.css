@@ -6,6 +6,11 @@
     main {
         width: 80vw;
     }
+
+    footer p {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -19,5 +24,10 @@
     
     aside {
         width: 50vw;
+    }
+
+    footer p {
+        font-size: 1.2em;
+        margin-bottom: 5px;
     }
 }
