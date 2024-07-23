@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-
 :root { 
     --cor01: #47a4d6;
     --cor02: #20448b;
@@ -21,8 +16,7 @@
 
 html, body {
     background-color:  #47a4d644;
-    width: 100vw;
-    height: 120vh;
+    height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -46,7 +40,6 @@ header > p {
     font-size: 1.2em;
     margin-top: -15px;
     text-align: center;
-    text-align: center;
     margin: -15px auto auto auto;
 }
 
@@ -56,9 +49,13 @@ main {
     padding: 5px;
     background-color: white;
     margin: 10px auto;
-    width: 100vw;
+    width: 95vw;
 
     flex: 1 1 0;
+}
+
+main p {
+    text-align: justify;
 }
 
 article > h1 {
