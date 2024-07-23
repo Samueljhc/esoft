@@ -93,8 +93,12 @@ article li {
     margin-top: 10px;
 }
 
+aside li {
+    font-size: 0.9em;
+}
+
 h2 {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 footer {
