@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-
 :root { 
     --cor01: #47a4d6;
     --cor02: #20448b;
@@ -21,8 +16,7 @@
 
 html, body {
     background-color:  #47a4d644;
-    width: 100vw;
-    height: 120vh;
+    height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -59,9 +53,13 @@ main {
     padding: 5px;
     background-color: white;
     margin: 10px auto;
-    width: 100vw;
+    width: 96vw;
 
     flex: 1 1 0;
+}
+
+main p {
+    text-align: justify;
 }
 
 article > h1 {
@@ -87,12 +85,28 @@ article li {
     margin-bottom: 2px;
 }
 
+main h1 {
+    font-size: 1.3em;
+}
+
+main p {
+    line-height: 1.1em;
+}
+
 #primeiro > p {
     margin-bottom: 10px;
 }
 
 #segundo > h1 {
     margin-top: 10px;
+}
+
+aside li {
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 1.2em;
 }
 
 footer {
