@@ -6,15 +6,6 @@
     main {
         width: 80vw;
     }
-
-    main h1 {
-        font-size: 1.3em;
-    }
-
-    footer p {
-        font-size: 1.1em;
-        margin-bottom: 5px;
-    }
 }
 
 @media screen and (min-width: 1024px) {
